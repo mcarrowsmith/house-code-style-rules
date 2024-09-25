@@ -1,0 +1,10 @@
+{
+    "name": "mcarrowsmith-packages/house-code-style-rules",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "McarrowsmithPackages\\HouseCodeStyleRules\\": "src/"
+        }
+    }
+}
