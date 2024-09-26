@@ -50,7 +50,7 @@ return [
     ],
     'braces_position'                                  => [
         'anonymous_classes_opening_brace'   => 'next_line_unless_newline_at_signature_end',
-        'anonymous_functions_opening_brace' => 'next_line_unless_newline_at_signature_end',
+        'anonymous_functions_opening_brace' => 'same_line',
     ],
     'cast_spaces'                                      => true,
     'class_attributes_separation'                      => [
@@ -304,9 +304,7 @@ return [
     'ternary_to_null_coalescing'                       => true,
     'trailing_comma_in_multiline'                      => [
         'elements' => [
-            'arguments',
             'arrays',
-            'match',
         ]
     ],
     'trim_array_spaces'                                => true,
