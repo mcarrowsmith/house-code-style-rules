@@ -292,7 +292,7 @@ return [
     'standardize_increment'                            => true,
     'standardize_not_equals'                           => true,
     'statement_indentation'                            => true,
-    'static_lambda'                                    => true,
+    'static_lambda'                                    => false,
     'strict_param'                                     => false,
     'string_length_to_empty'                           => true,
     'string_line_ending'                               => true,
